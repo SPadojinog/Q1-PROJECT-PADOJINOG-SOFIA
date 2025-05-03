@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Shop Name</title>
+    <style type="text/css">
+        body {
+            text-align: center;
+            background-color: #FFEEAD;
+            margin: 0;
+        }
+
+        img {
+            padding: 60px;
+            width: 100px; 
+        }
+
+        .menu-top {
+            list-style: none;
+            padding: 2px;
+            font-size: 20px;
+            background-color: #FFEEAD;  
+            overflow: hidden;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 5px 8px;
+            text-align: center;
+        }
+
+        li {
+            display: inline-block;
+            margin: 15px;
+        }
+
+        li a {
+            color: black; 
+            text-decoration: none;
+            display: block;
+        }
+
+        #example1 {
+            background-image: url(https://collegeinfogeek.com/wp-content/uploads/2018/11/Essential-Books.jpg);
+            font-size: 30px;
+            padding: 100px;
+            color: white;
+            min-height: 3vh;
+        }
+
+        h4 { 
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
+
+        p {
+            color: black;
+        }
+
+        .myDiv {
+            background-color: #674636;   
+            text-align: center;
+            padding: 5px; 
+            color: white;           
+            font-size: 20px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .forms {
+            margin-left: 35%;
+            margin-right: 35%;
+            border: 2px outset #FFEEAD; 
+            border-radius: 10px;        
+            background-color: #AB886D;    
+            text-align: left;
+            font-size: 19px;
+            padding: 20px; 
+            color: white;
+        }
+
+        .form-group {
+            margin-bottom: 15px; 
+        }
+
+        .form-group label {
+            display: block; 
+            margin-bottom: 5px; 
+        }
+
+        .form-group input {
+            width: 95%; 
+            padding: 10px; 
+            border: 1px solid #ccc;
+            border-radius: 5px; 
+        }
+
+        input[type="submit"] {
+            background-color: #674636; 
+            color: white; 
+            border: none; 
+            cursor: pointer; 
+            padding: 15px;
+            width: 100%; 
+        }
+
+        input[type="submit"]:hover {
+            background-color: #FFEEAD;
+        }
+    </style>
+</head>
+<body>
+    <!-- SECTION 1: MENU -->
+    <div id="navbar">
+        <ul class="menu-top">
+            <li><a href="#LOGIN-FORM">LOG IN</a></li>
+            <li><a href="#BESTSELLERS">BESTSELLERS</a></li>
+            <li><a href="#PRODUCTS">BOOKS</a></li>
+            <li><a href="#SIGN-UP-FORM">SIGN UP</a></li>
+        </ul>
+    </div>
+
+    <!-- SECTION 2: HERO -->
+    <div id="example1">
+        <h1>Books</h1>
+    </div>
+    
+    <!-- SECTION 3: BESTSELLERS -->
+    <div class="myDiv" id="BESTSELLERS">
+        <h4>BESTSELLERS</h4>
+    </div>
+    <ul>
+        <li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNpVEundnofWuRkbOMhiONjAmo8cKnjkJSVA&s" alt="Ignite Me by Tahereh Mafi">
+            <p>Ignite Me by Tahereh Mafi</p>
+        </li>
+        <li>
+            <img src="https://blackholly.com/wp-content/uploads/2017/03/CruelPrince_SMALL-800x1200.jpeg" alt="The Cruel Prince by Holly Black">
+            <p>The Cruel Prince by Holly Black</p>
+        </li>
+        <li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBiv_STri-WLj6W5ilVhTxM3hd7rbHtPuA5g&s" alt="Twisted Love by Ana Huang">
+            <p>Twisted Love by Ana Huang</p>
+        </li>
+        <li>
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1620325671i/50659468.jpg" alt="A Court of Mist and Fury by Sarah L. Maas">
+            <p>A Court of Mist and Fury by Sarah L. Maas</p>
+        </li>
+        <li>
+            <img src="https://cdn.kobo.com/book-images/5ba045c9-9bbd-4648-a7f4-9b0a7fb66197/353/569/90/False/fourth-wing.jpg" alt="Fourth Wing by Rebecca Tarros">
+            <p>Fourth Wing by Rebecca Tarros</p>
+        </li>
+    </ul>
+    
+    <!-- SECTION 4: BOOK RECOMMENDATIONS -->
+    <div class="myDiv" id="PRODUCTS">
+        <h4>BOOK RECOMMENDATIONS</h4>
+    </div>
+    <ul>
+        <li>
+            <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587396413l/52439531.jpg" alt="The Inheritance Games by Jennifer Lynn Barnes">
+            <p>The Inheritance Games by Jennifer Lynn Barnes</p>
+        </li>
+        <li>
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1548201335i/42201431.jpg" alt="The Unhoneymooners by Christina Lauren">
+            <p>The Unhoneymooners by Christina Lauren</p>
+        </li>
+        <li>
+            <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638867089l/58690308.jpg" alt="Book Lovers by Emily Henry">
+            <p>Book Lovers by Emily Henry</p>
+        </li>
+        <li>
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1610900883i/54189398.jpg" alt="The Spanish Love Deception by Elena Armas">
+            <p>The Spanish Love Deception by Elena Armas</p>
+        </li>
+        <li>
+            <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618150545l/55710822.jpg" alt="Better Than The Movies by Lynn Painter">
+            <p>Better Than The Movies by Lynn Painter</p>
+        </li>
+        <li>
+            <img src="https://cdn.kobo.com/book-images/45ccd3cb-2c8b-4dff-94e4-aba11d887d08/1200/1200/False/caraval-1.jpg" alt="Caraval by Stephanie Garber">
+            <p>Caraval by Stephanie Garber</p>
+        </li>
+        <li>
+            <img src="https://christinalaurenbooks.com/wp-content/uploads/2022/04/CLO11.jpg" alt="Love & Other Words by Christina Lauren">
+            <p>Love & Other Words by Christina Lauren</p>
+        </li>
+        <li>
+            <img src="https://cdn.kobo.com/book-images/7b9c03b5-bfa1-4995-94b7-0772f117ca91/1200/1200/False/the-naturals-6.jpg" alt="The Naturals by Jennifer Lynn Barnes">
+            <p>The Naturals by Jennifer Lynn Barnes</p>
+        </li>
+        <li>
+            <img src="https://m.media-amazon.com/images/I/71un2hI4mcL._AC_UF1000,1000_QL80_.jpg" alt="The Hunger Games by Suzanne Collins">
+            <p>The Hunger Games by Suzanne Collins</p>
+        </li>
+        <li>
+            <img src="https://images.gr-assets.com/books/1459349344l/23437156.jpg" alt="Six of Crows by Leigh Bardugo">
+            <p>Six of Crows by Leigh Bardugo</p>
+        </li>
+    </ul>
+
+    <!-- SECTION 5: LOGIN & SIGN UP -->
+    <div class="myDiv" id="LOGIN-FORM">
+        <h4>LOG IN</h4>
+    </div>
+    <div class="forms">
+        <form id="LOGIN-FORM">
+            <div class="form-group">
+                <label for="login-username">Username:</label>
+                <input type="text" id="login-username" required>
+            </div>
+            <div class="form-group">
+                <label for="login-email">Email:</label>
+                <input type="email" id="login-email" required>
+            </div>
+            <div class="form-group">
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" required>
+            </div>
+            <input type="submit" value="LOGIN">
+        </form>
+    </div>
+    <br />
+    <div class="myDiv" id="SIGN-UP-FORM">
+        <h4>SIGN UP</h4>
+    </div>
+    <div class="forms">
+        <form id="SIGN-UP-FORM">
+            <div class="form-group">
+                <label for="signup-username">Username:</label>
+                <input type="text" id="signup-username" required>
+            </div>
+            <div class="form-group">
+                <label for="signup-email">Email:</label>
+                <input type="email" id="signup-email" required>
+            </div>
+            <div class="form-group">
+                <label for="signup-password">Password:</label>
+                <input type="password" id="signup-password" required>
+            </div>
+            <input type="submit" value="SIGN UP">
+        </form>
+    </div>
+</body>
+</html>
